@@ -1,6 +1,6 @@
 # 📊 XGBoost Regression Web App
 
-A simple Flask web application for training and evaluating an XGBoost regression model using a custom dataset. Includes visualizations, metrics, and predictions, all accessible through a web interface.
+A simple Flask web application for training and evaluating an XGBoost regression model using a custom dataset. Includes visualizations, metrics, and predictions — all accessible through a user-friendly web interface.
 
 ---
 
@@ -15,30 +15,30 @@ Before running the app, install all required Python packages:
 
 ```bash
 pip install matplotlib pandas numpy xgboost flask scikit-learn seaborn flask-cors chardet
-
-
+```
 🚀 Run the App
 Start the Flask server using:
+```bash
 python app.py
-
+```
 📂 Dataset Instructions
 1. Download the Dataset
 You can either:
 
 Place your dataset directly in the /uploads folder
+OR
 
-Or download it from the official source:
-
+Download it from the official source:
 🔗 Download Dataset
 
-Note: Refresh the page after visiting the link to access the file properly.
+Note: Refresh the page after visiting the link to properly access the download.
 
-2. Upload Dataset
-Once the server is running:
+2. Upload the Dataset
+After starting the server:
 
-Go to the web app
+Go to the web app in your browser
 
-Upload your dataset file via the provided upload interface
+Use the upload interface to upload your dataset file
 
 🤖 Train the Model
 After uploading the dataset:
@@ -50,9 +50,11 @@ View training metrics such as RMSE and R²
 📈 Make Predictions
 Once the model is trained:
 
-Proceed to the "Prediction" section
+Navigate to the "Prediction" section
 
-Input new data and get real-time predictions with visual outputs
+Enter new input values
+
+Get real-time predictions along with visual results
 
 🧠 Tech Stack
 Python
@@ -68,3 +70,4 @@ pandas, NumPy
 matplotlib, seaborn
 
 HTML/CSS + Bootstrap (frontend)
+
