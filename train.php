@@ -134,7 +134,7 @@ include "includes/navbar.php";
 
                                 <form id="model-training-form">
                                     <div class="row mb-4">
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
                                             <div class="card h-100">
                                                 <div class="card-header">
                                                     <h5 class="mb-0">Target Selection</h5>
@@ -151,7 +151,7 @@ include "includes/navbar.php";
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <!-- <div class="col-md-6">
                                             <div class="card h-100">
                                                 <div class="card-header">
                                                     <h5 class="mb-0">Model Selection</h5>
@@ -169,7 +169,7 @@ include "includes/navbar.php";
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
 
                                     <div class="row mb-4">
