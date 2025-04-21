@@ -16,58 +16,68 @@ Before running the app, install all required Python packages:
 ```bash
 pip install matplotlib pandas numpy xgboost flask scikit-learn seaborn flask-cors chardet
 ```
-🚀 Run the App
+
+---
+
+## 🚀 Run the App
+
 Start the Flask server using:
+
 ```bash
 python app.py
 ```
-📂 Dataset Instructions
-1. Download the Dataset
+
+Once the server is running, open your browser and go to:
+
+```
+http://127.0.0.1:5000
+```
+
+---
+
+## 📂 Dataset Instructions
+
+### 1. Download the Dataset
+
 You can either:
+- Place your dataset directly in the `/uploads` folder  
+**OR**
+- Download it from the official source:  
+  🔗 [Download Dataset](https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2E__CS/0022E4EAHC0.px/?rxid=b76dcbcc-f5b8-46db-9a08-cec4d1bad744)
 
-Place your dataset directly in the /uploads folder
-OR
+> **Note:** Refresh the page after visiting the link to properly access the download.
 
-Download it from the official source:
-🔗 Download Dataset
+### 2. Upload the Dataset
 
-Note: Refresh the page after visiting the link to properly access the download.
-
-2. Upload the Dataset
 After starting the server:
+- Go to the web app in your browser
+- Use the upload interface to upload your dataset file
 
-Go to the web app in your browser
+---
 
-Use the upload interface to upload your dataset file
+## 🤖 Train the Model
 
-🤖 Train the Model
 After uploading the dataset:
+- Click **"Train Model"**
+- View training metrics such as **RMSE** and **R²**
 
-Click "Train Model"
+---
 
-View training metrics such as RMSE and R²
+## 📈 Make Predictions
 
-📈 Make Predictions
 Once the model is trained:
+- Navigate to the **"Prediction"** section
+- Enter new input values
+- Get real-time predictions along with visual results
 
-Navigate to the "Prediction" section
+---
 
-Enter new input values
+## 🧠 Tech Stack
 
-Get real-time predictions along with visual results
-
-🧠 Tech Stack
-Python
-
-Flask
-
-XGBoost
-
-scikit-learn
-
-pandas, NumPy
-
-matplotlib, seaborn
-
-HTML/CSS + Bootstrap (frontend)
-
+- Python
+- Flask
+- XGBoost
+- scikit-learn
+- pandas, NumPy
+- matplotlib, seaborn
+- HTML/CSS + Bootstrap (frontend)
